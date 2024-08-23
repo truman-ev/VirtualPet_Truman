@@ -4,19 +4,11 @@ Truman Evans
 Learn a workflow between a code IDE and GitHub to document and share computer programs
 */
 
-import processing.core.PApplet;
-
-public class Sketch extends PApplet {
-
-  public void settings() {
+  void setup() {
     size(400, 400);
   }
 
-  public void setup() {
-   
-  }
-
-  public void draw() {
+  void draw() {
     background(4, 102, 35);
 
     fill(5, 77, 11); //dark green
